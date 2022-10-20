@@ -1,0 +1,14 @@
+{
+    "DATASET_ROOT": "/",
+    "DATASTORE_DIR": "./",
+	"PHIPIPE_VERSION": "",
+    "HEUDICONV_VERSION": "",
+    "FMRIPREP_VERSION": "",
+	"FSL_VERSION": "",
+    "FS_VERSION": "",
+    "SINGULARITY_PATH": "singularity",
+    "SINGULARITY_HEUDICONV": "",
+    "SINGULARITY_BIDS_VALIDATOR": "",
+    "SINGULARITY_FMRIPREP": "",
+    "TEMPLATEFLOW_DIR": ""    
+}
