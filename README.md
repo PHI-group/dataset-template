@@ -17,7 +17,7 @@ This repo will contain container recipes and run scripts to manage MR dataset or
 
 The scripts in this repo operate on a dataset directory with a specific subdir tree structure.
 
-<img src="imgs/mr_proc_data_proc_org.jpg" alt="Drawing" align="middle" width="500px"/>
+<img src="images/dataset_management.jpg" alt="Drawing" align="middle" width="500px"/>
 
 The organization of data preprocessing and processing module is as follows:
    - global_config: A json file to set various paths specific to the machine you are using which will be used for data processing. 
@@ -35,7 +35,7 @@ The organization of data preprocessing and processing module is as follows:
    - You can run `scripts/folder_setup.sh` to create this directory tree. 
    - You can run `scripts/folder_status.sh` check status of your dataset
 
-<img src="imgs/mr_proc_data_dir_org.jpg" alt="Drawing" align="middle" width="1000px"/>
+<img src="images/dataset_folder.jpg" alt="Drawing" align="middle" width="1000px"/>
 
 ### 1. Create subject manifest 
    - to be detailed [People Responsible] [Time Finish]
@@ -45,7 +45,7 @@ The organization of data preprocessing and processing module is as follows:
 ### 2. Gather MRI acquisition protocols (Optional)
 
    - to be detailed [People Responsible] [Time Finish]
-   - List all the modalities and acquisition protocols used duing scanning e.g. MPRAGE, 3DT1, FLAIR, RS-FMRI etc. in the `mr_proc/workflow/dicom_org/scan_protocols.csv`
+   - List all the modalities and acquisition protocols used duing scanning e.g. MPRAGE, 3DT1, FLAIR, RS-FMRI etc. in the `template-dataset/workflow/dicom_org/scan_protocols.csv`
    - Although optional this is an important documentation for comparing across studies. 
    
 ### 3. Populate [global configs](./workflow/global_configs.json)
